@@ -7,7 +7,7 @@ def main():
     global counter
     email = ("").join(random.choices(string.ascii_letters + string.digits, k = 8)) + "@gmail.com"
     password = ("").join(random.choices(string.ascii_letters + string.digits, k = 8))
-    data = f"birth_day=1&birth_month=01&birth_year=1970&collect_personal_info=undefined&creation_flow=&creation_point=https://www.spotify.com/uk/&displayname=gay levy&email={email}&gender=neutral&iagree=1&key=a1e486e2729f46d6bb368d6b2bcda326&password={password}&password_repeat={password}&platform=www&referrer=&send-email=1&thirdpartyemail=0&fb=0"
+    data = f"birth_day=1&birth_month=01&birth_year=1970&collect_personal_info=undefined&creation_flow=&creation_point=https://www.spotify.com/uk/&displayname=github.com/slikc&email={email}&gender=neutral&iagree=1&key=a1e486e2729f46d6bb368d6b2bcda326&password={password}&password_repeat={password}&platform=www&referrer=&send-email=1&thirdpartyemail=0&fb=0"
     session = requests.Session()
     headers = {
                 "Accept": "*/*",
