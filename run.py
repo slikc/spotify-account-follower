@@ -1,6 +1,5 @@
 import threading
 from main import main
-
 counter = 0
 
 threads = int(input("How many threads do you want to run? "))
