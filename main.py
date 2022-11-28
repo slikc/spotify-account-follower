@@ -1,9 +1,8 @@
 import string, random, requests, time, json, ctypes
 from colorama import init, Fore, Back, Style
 requests.packages.urllib3.disable_warnings()
+
 counter = 0
-
-
 def main():
     global counter
     email = ("").join(random.choices(string.ascii_letters + string.digits, k = 8)) + "@gmail.com"
