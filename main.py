@@ -76,7 +76,6 @@ def main():
     print(f"{Fore.BLUE}[INFO]{Fore.RESET} {Fore.CYAN}Current User Follows: {accountstats}")
     if followuser.status_code == 204:
         print(f"{Fore.GREEN}[+]{Fore.RESET} FOLLOWED USER")
-        ctypes.windll.kernel32.SetConsoleTitleW(f"Spotify Account Creator | Estimated Created: {accountstats + counter} | By #slikc0001")
         counter += 1
 
     else:
