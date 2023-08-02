@@ -1,5 +1,5 @@
 # spotify-account-follower
-i know the code is shit
+PATCHED!!!
 
 
 put the id in config.json and dont be a twat with the code
